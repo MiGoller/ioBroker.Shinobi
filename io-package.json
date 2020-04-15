@@ -1,0 +1,79 @@
+{
+	"common": {
+		"name": "shinobi",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Shinobi CCTV",
+		"titleLang": {
+			"en": "Shinobi CCTV",
+			"de": "Shinobi CCTV",
+			"ru": "Шиноби CCTV",
+			"pt": "Shinobi CCTV",
+			"nl": "Shinobi CCTV",
+			"fr": "Shinobi CCTV",
+			"it": "Shinobi CCTV",
+			"es": "CCTV Shinobi",
+			"pl": "Shinobi CCTV",
+			"zh-cn": "忍者央视"
+		},
+		"desc": {
+			"en": "ioBroker adapter for Shinobi CCTV",
+			"de": "ioBroker Adapter für Shinobi CCTV",
+			"ru": "Адаптер ioBroker для видеонаблюдения Shinobi",
+			"pt": "Adaptador ioBroker para CCTV Shinobi",
+			"nl": "ioBroker-adapter voor Shinobi CCTV",
+			"fr": "Adaptateur ioBroker pour Shinobi CCTV",
+			"it": "Adattatore ioBroker per CCTV Shinobi",
+			"es": "Adaptador ioBroker para Shinobi CCTV",
+			"pl": "Adapter ioBroker do Shinobi CCTV",
+			"zh-cn": "适用于Shinobi CCTV的ioBroker适配器"
+		},
+		"authors": [
+			"MiGoller <goller.michael@gmail.com>"
+		],
+		"keywords": [
+			"ioBroker",
+			"template",
+			"Smart Home",
+			"home automation"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "shinobi.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/MiGoller/ioBroker.shinobi/master/admin/shinobi.png",
+		"readme": "https://github.com/MiGoller/ioBroker.shinobi/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "alarm",
+		"compact": true,
+		"connectionType": "cloud",
+		"dataSource": "poll",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=1.4.2"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
