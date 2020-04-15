@@ -83,7 +83,21 @@ For later updates, the above procedure is not necessary. Just do the following:
 1. Overwrite the changed files in the adapter directory (`/opt/iobroker/node_modules/iobroker.shinobi`)
 1. Execute `iobroker upload shinobi` on the ioBroker host
 
+### Publishing a new release to GitHub
+
+See https://github.com/ioBroker/create-adapter#publishing 
+
+```bash
+npm run release [version] [-- --dry]
+```
+
 ## Changelog
+
+### __WORK IN PROGRESS__
+...
+
+### 0.0.2
+* (MiGoller) ...
 
 ### 0.0.1
 * (MiGoller) initial release
